@@ -1,6 +1,6 @@
 # humanize-data
 
-    Converts bytes to human readable format: 7338 → 7.17 KB
+**Converts bytes to human readable format: *7338 → 7.17 KB***
 
 ## Installation
 
