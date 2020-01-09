@@ -1,3 +1,8 @@
+/**
+*  Copyright 2020 Sprout Matrix Private Limited
+*  @author sprout-matrix
+*  Converts bytes to human readable data units, such as KB, MB, GB, TB, PB, EB, ZB, YB etc.  
+**/
 function bytesToHumanReadableFormat(bytes, multiplier) {
 	if(typeof bytes !== 'number')
 		bytes = 1;
