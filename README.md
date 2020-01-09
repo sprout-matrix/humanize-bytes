@@ -17,6 +17,7 @@ var humanizeData = require('humanize-data');
 humanizeData(7378668345); //=> "6.87 GB"
 ```
 
+#### Additional Config
 
 By default, it humanize the bytes by *1024* multiplier. If you want to use a different multiplier such as 1000, you can use following code:
 
@@ -36,5 +37,5 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-* The Awesome Language - JavaScript
+* JavaScript - The Awesome Language
 
