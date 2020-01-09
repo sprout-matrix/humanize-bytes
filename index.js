@@ -13,7 +13,7 @@ function bytesToHumanReadableFormat(bytes, multiplier) {
 	bytes = Math.abs(bytes);
 
     var index = Math.floor(Math.log(bytes) / Math.log(1024)),
-    units = ['Bytes', 'Kb', 'Mb', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+    units = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
 
     return (bytes / Math.pow(multiplier, index)).toFixed(2) * 1 + ' ' + units[index];
 }
