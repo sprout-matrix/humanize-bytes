@@ -1,10 +1,10 @@
 {
-  "name": "humanize-bytes",
+  "name": "humanize-data",
   "version": "1.0.0",
-  "description": "Converts bytes to human readable speed units, such as Kb, Mb, Gb, Tb etc.",
-  "homepage": "https://github.com/sprout-matrix/humanize-bytes",
+  "description": "Converts bytes to human readable data units, such as Kb, Mb, Gb, Tb etc.",
+  "homepage": "https://github.com/sprout-matrix/humanize-data",
   "bugs": {
-    "url": "https://github.com/sprout-matrix/humanize-bytes/issues",
+    "url": "https://github.com/sprout-matrix/humanize-data/issues",
     "email": "hushen.savani@sproutmatrix.com"
   },
   "main": "index.js",
@@ -13,10 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sprout-matrix/humanize-bytes.git"
+    "url": "https://github.com/sprout-matrix/humanize-data.git"
   },
   "keywords": [
     "humanize-bytes",
+    "humanize-data",
     "network-units",
     "human-readable",
     "KbMbGbTb",
