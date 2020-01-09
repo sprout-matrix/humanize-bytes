@@ -1,6 +1,6 @@
 # humanize-data
 
-Converts bytes to human readable data units, such as Kb, Mb, Gb, Tb etc.
+Converts bytes to human readable data units, such as KB, MB, GB, TB, PB, EB, ZB, YB etc.
 
 ## Installation
 
