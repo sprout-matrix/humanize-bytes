@@ -10,7 +10,7 @@ function bytesToHumanReadableFormat(bytes, multiplier) {
     var index = Math.floor(Math.log(bytes) / Math.log(1024)),
     units = ['Bytes', 'Kb', 'Mb', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
 
-    return (bytes / Math.pow(multiplier, i)).toFixed(2) * 1 + ' ' + units[index];
+    return (bytes / Math.pow(multiplier, index)).toFixed(2) * 1 + ' ' + units[index];
 }
 
 module.exports = bytesToHumanReadableFormat;
