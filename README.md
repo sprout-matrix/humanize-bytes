@@ -8,7 +8,7 @@ Converts bytes to human readable data units, such as KB, MB, GB, TB, PB, EB, ZB,
 npm install humanize-data
 ```
 
-## Getting Started
+## Example
 
 It's very simple. Just import the npm package and pass the bytes to function, you'll get output.
 
