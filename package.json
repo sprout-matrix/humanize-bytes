@@ -1,6 +1,6 @@
 {
   "name": "humanize-data",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Converts bytes to human readable data units, such as KB, MB, GB, TB, PB, EB, ZB, YB etc.",
   "homepage": "https://github.com/sprout-matrix/humanize-data",
   "bugs": {
