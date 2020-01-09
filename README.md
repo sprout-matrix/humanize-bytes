@@ -1,6 +1,6 @@
 # humanize-data
 
-Converts bytes to human readable data units, such as KB, MB, GB, TB, PB, EB, ZB, YB etc.
+    Converts bytes to human readable format: 7338 → 7.17 KB
 
 ## Installation
 
@@ -9,8 +9,6 @@ npm install humanize-data
 ```
 
 ## Example
-
-It's very simple. Just import the npm package and pass the bytes to function, you'll get output.
 
 ```
 var humanizeData = require('humanize-data');
@@ -23,7 +21,7 @@ By default, it humanize the bytes by *1024* multiplier. If you want to use a dif
 
 ```
 var humanizeData = require('humanize-data');
-humanizeData(7378668345, 1000); //=> "7.38 GB"
+humanizeData(7378668345, { multiplier: 1000 }); //=> "7.38 GB"
 ```
 
 
