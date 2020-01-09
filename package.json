@@ -1,7 +1,7 @@
 {
   "name": "humanize-data",
-  "version": "1.3.3",
-  "description": "Converts bytes to human readable formats, such as KB, MB, GB, TB, PB, EB, ZB, YB etc.",
+  "version": "1.3.7",
+  "description": "Converts bytes to human readable format: 7338 → 7.17 KB",
   "homepage": "https://github.com/sprout-matrix/humanize-data",
   "bugs": {
     "url": "https://github.com/sprout-matrix/humanize-data/issues",
