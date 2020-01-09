@@ -1,15 +1,21 @@
-# humanize-bytes
+# humanize-data
 
-Converts bytes to human readable speed units, such as Kb, Mb, Gb, Tb etc.
+Converts bytes to human readable data units, such as Kb, Mb, Gb, Tb etc.
+
+## Installation
+
+```
+npm install humanize-data
+```
 
 ## Getting Started
 
 It's very simple. Just import the npm package and pass the bytes to function, you'll get output.
 
 ```
-var humanizeBytes = require('humanize-bytes');
-var totalData = humanizeBytes(7378668345);
-console.log(totalData);
+var humanizeData = require('humanize-data');
+var data = humanizeData(7378668345);
+console.log(data);
 ```
 
 Output of above would be as following:
@@ -21,9 +27,9 @@ Output of above would be as following:
 By default, it humanize the bytes by 1024 multiplier. If you want to use a different multiplier such as 1000, you can use following code:
 
 ```
-var humanizeBytes = require('humanize-bytes');
-var totalData = humanizeBytes(7378668345, 1000);
-console.log(totalData);
+var humanizeData = require('humanize-data');
+var data = humanizeData(7378668345, 1000);
+console.log(data);
 ```
 
 Output of above would be as following:
